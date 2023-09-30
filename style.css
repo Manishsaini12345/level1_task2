@@ -1,0 +1,235 @@
+* {
+    /* margin: 0; */
+    padding: 0;
+    width: 90%;
+    left: 5%;
+    color: white;
+    position: relative;
+
+}
+
+.page1 {
+    background-color: black;
+}
+
+.p1up {
+    display: flex;
+    background-color: #11133f;
+    padding-top: 30px;
+}
+
+.p1left {
+    width: 49%;
+    /* background-image: url(https://wallpapercave.com/wp/wp2982141.jpg); */
+    /* background-image: url(https://th.bing.com/th/id/OIP.Vs9TdQkcRwigX7qb1_LA7gHaFK?pid=ImgDet&rs=1); */
+    /* height: 170%; */
+    background-image: url('myphoto.jpg');
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.p1left h1 {
+    position: absolute;
+    left: 27%;
+    top: 60%;
+    background: none;
+    font-family: cursive;
+}
+
+#img {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.p1right {
+    margin-left: 10px;
+    width: 30%;
+}
+
+.p1right h1 {
+    margin: 50px 0;
+}
+
+.nav {
+    display: flex;
+    margin: 50px 0;
+}
+
+.p1right ul {
+    color: yellow;
+    margin: 20px 0;
+    cursor: pointer;
+}
+
+.nav ul {
+    width: auto;
+    margin-left: 10px;
+    font-size: 40px;
+    color: wheat;
+}
+
+.p1down {
+    display: flex;
+    height: 200px;
+    background-color: #3d3d61e8;
+    ;
+}
+
+.p1down ul {
+    padding: 40px;
+    font-size: 30px;
+}
+
+.page2 {
+    height: 100vh;
+    width: 90%;
+    background-color: #11133f;
+}
+
+.p2up {
+    display: flex;
+}
+
+.p2up h1 {
+    margin: 100px 0;
+}
+
+.p2up ul {
+    width: 300px;
+}
+
+.p2up span {
+    position: initial;
+    font-size: 36px;
+    color: burlywood
+}
+
+.p2mid {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-gap: 30px;
+    align-items: center;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(75, 69, 58);
+    font-size: 30px;
+    margin: auto;
+    /* text-align: center; */
+}
+
+#box1 {
+    background-color: rgb(237, 173, 13);
+}
+
+.box ul {
+    line-height: 1.5;
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.p2down {
+    background-color: rgb(30, 58, 79);
+    height: 250px;
+    width: 100%;
+    margin-top: -125px;
+    position: initial;
+}
+
+.page3 {
+    width: 90%;
+    height: 100vh;
+    background-color: rgb(57 57 16);
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+}
+
+.page4 {
+    width: 90%;
+    height: 100vh;
+    background-color: #4d6960;
+}
+
+.p4left {
+    display: block;
+    width: 30%;
+    padding: 100px 0px;
+}
+
+.p4right {
+    display: block;
+    width: 62%;
+    margin-left: auto;
+    margin-top: -271px
+}
+
+.p4right ul {
+    display: block;
+    width: 80px;
+}
+
+.p4right li {
+    display: block;
+    width: 381px;
+    margin-top: -41px;
+    font-size: 30px;
+    margin-left: 106px;
+}
+
+.p4down {
+    display: flex;
+    margin-top: 100px;
+}
+
+.p4dright {
+    margin-left: -250px;
+}
+
+.about {
+    font-size: 28px;
+}
+
+.name {
+    font-size: 20px;
+}
+
+.posi {
+    font-size: 13px;
+}
+
+.myphoto {
+    width: 300px;
+    height: 350px;
+}
+
+.page5 {
+    width: 90%;
+    height: 100vh;
+    background-color: #5b405b;
+}
+
+.p5up {
+    display: flex;
+    padding: 100px 0px;
+}
+
+.p5left {
+    width: 500px;
+}
+
+.p5up h1 {
+    margin: 0px;
+    padding: 0px;
+}
+
+.p5right ul {
+    padding: 10px;
+}
+
+.footer {
+    text-align: center;
+}
